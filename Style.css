@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    background-color: rgb(233, 22, 120);
+}
+
+.title {
+    color: rgb(3, 3, 20);
+    text-align: center;
+    font-size: 12px;
+    background-color: blanchedalmond;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 6);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bio{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(153, 110, 45);
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 6);
+    width: 100%;
+    border-radius: 20px;
+}
+.data {
+    background-color: rgb(227, 11, 47);
+    display: flex;
+    left: 210px;
+    top: 200px;
+    padding: 60px;
+    border-radius: 20;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 6);
+    font-weight: bold;
+}
+
+.data p {
+    margin-right: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.data img {
+    margin-right: 10px;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 6);
+    border-radius: 180px;
+}
+
+.video {
+    background-color: rgb(212, 203, 179);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 280px;
+    right: 40px;
+}
+
+.video video {
+    width: 300px;
+    height: 200px;
+}
+
+.vidaud {
+    display: block;
+}
+
+.audio {
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    background-color: rgb(232, 234, 202);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p {
+    font-size: small;
+}
+#datetime {
+    background-color: rgb(116, 228, 167);
+    border-radius: 20px;
+    position: fixed;
+    bottom: 80px;
+    right: 600px;
+    padding: 10px;
+}
